@@ -16,7 +16,7 @@ package boardgame;
 		
 		public abstract boolean [][] possibleMovie();
 		
-		public boolean possibleMovie(Position position) {
+		public boolean possibleMove(Position position) {
 			return possibleMovie()[position.getRow()][position.getColumn()];
 		}
 		
